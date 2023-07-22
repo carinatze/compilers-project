@@ -1,5 +1,4 @@
-# CPSC 411 Milestone 6 Skeleton
-
+I built an optimizing ahead-of-time compiler from a high-level language with functional and imperative features to x86-64. This milestone introduces the procedure return abstraction and non-tail calls, so that we can call functions that return values to non-tail contexts.
 This branch provides the skeleton for CPSC 411 Milestone 6: https://www.students.cs.ubc.ca/~cs-411/2022w2/a6_milestone_top.html
 
 When submitting, you should ensure the name of the `compiler.rkt` file and the
