@@ -1,12 +1,6 @@
 # Compilers Construction Project 
-I built an optimizing ahead-of-time compiler from a high-level language with functional and imperative features to x86-64. This milestone introduces the procedure return abstraction and non-tail calls, so that we can call functions that return values to non-tail contexts.
+I built an optimizing ahead-of-time compiler from a high-level language with functional and imperative features to x86-64. The project proceeds bottom-up. We start with the "lowest" level of abstraction, assembly language, and gradually design and implement new layers of abstraction as languages. (Source: https://www.students.cs.ubc.ca/~cs-411/2022w2/milestone_top.html) This milestone handles procedure return abstraction and non-tail calls, so that we can call functions that return values to non-tail contexts.
 This branch provides the skeleton for CPSC 411 Milestone 6: https://www.students.cs.ubc.ca/~cs-411/2022w2/a6_milestone_top.html
-
-When submitting, you should ensure the name of the `compiler.rkt` file and the
-provides from that file are the same as in this commit.
-You may change the code base in any other way, including moving code to other
-files, as long as `compiler.rkt` reprovides the appropriate functions.
-You can check this is the case by running `raco test interface-test.rkt`.
 
 Exercise 5, impose-calling-conventions and impose-calling-conventions tests -> impose-calling-conventions.rkt
 
